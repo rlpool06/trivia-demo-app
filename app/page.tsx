@@ -7,7 +7,7 @@ export default async function Home() {
   const data = await getTriviaData();
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-blue-200">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-red-200">
       <CardContainer data={data} />
     </main>
   );
